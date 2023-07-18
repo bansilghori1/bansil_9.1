@@ -26,8 +26,5 @@ for(i=0;i<n;i++){
     a[i]=a[i] - 32;
     }
 }
-    
-    
-    printf("\nThe converted text in upper case is :  %s",a);
-
+     printf("\nThe converted text in upper case is :  %s",a);
 }
