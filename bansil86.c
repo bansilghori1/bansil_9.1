@@ -10,24 +10,24 @@ Uppercase string: HELLO WORLD
 
 void main (){
 
-int a[100];
-int i;
-printf("Enter the string :  ");
-scanf("%s",a);
+int n,i;
 
+printf("Enter the string length =  ");
+scanf("%d",&n);
 
-for(i=0;i=100;i++){
+char a[n];
 
+printf("enter your senteces(without any space  ) : ");
+scanf("%s",&a);
 
+for(i=0;i<n;i++){
+    if(a[i]>=97 && a[i]<=122){
 
-
-
-
-
-
-
-
-
+    a[i]=a[i] - 32;
+    }
 }
+    
+    
+    printf("\nThe converted text in upper case is :  %s",a);
 
 }
